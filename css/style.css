@@ -389,3 +389,49 @@
   width: 292px;
 
 }
+#list-bento h1 {
+    margin-top: 32px;
+    color: #612999;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+  }
+  #list-erea {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  #list-erea ul {
+    list-style: none;
+    padding: 0;
+  }
+  .list-item {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  .list-group {
+    background-color: #612999;
+    background-image: url("../images/Group.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    margin-right: 32px;
+  }
+
+  .list-details {
+    margin-right: 16px;
+    color: #000;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+  }
