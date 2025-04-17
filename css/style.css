@@ -68,3 +68,34 @@
   nav a.active {
     font-weight: bold;
   }
+  main{
+    margin-top: 39px;
+  }
+  #cover-photo-section {
+    background-image: url("../images/bentoCaver.jpg");
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 797px;
+  }
+  #cover-photo-section h1 {
+    margin: 0px 32px;
+    width: 448px;
+    color: #612999;
+    font-family: Nunito;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  #cover-photo-section p {
+    width: 448px;
+    margin: 0px 32px;
+    color: #000;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
