@@ -365,3 +365,27 @@
     line-height: normal;
   }
   /*******************************/
+  #choose-photo {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 32px;
+    grid-auto-columns: max-content;
+    white-space: nowrap;
+}
+#choose-photo img {
+    border: 4px solid #E6DBFE;
+    height: 292px;
+}
+[title~="bee"]{
+  object-fit: cover;
+  width: 292px;
+}
+[title~="i-love-you"]{
+  object-fit: cover;
+  width: 380.29px;
+}
+[title~="happy anniversary"]{
+  object-fit: cover;
+  width: 292px;
+
+}
