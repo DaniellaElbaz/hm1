@@ -243,3 +243,125 @@
     font-weight: 400;
     line-height: normal;
   }
+  footer {
+    position: sticky;
+    z-index: 3;
+    height: 287px;
+    background-color : #EFECFF;
+    display: flex;
+    bottom: 0;
+  }
+  footer section {
+    margin-top: 32px;
+  }
+  #footer-who-we-are {
+    position: relative;
+    left: 32px;
+  }
+  #footer-who-we-are h2 {
+    color: #333;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+  #footer-who-we-are ul {
+    position: relative;
+    top: 16px;
+  }
+  #footer-who-we-are a {
+    color: #333;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  #footer-who-we-are li{
+    margin-bottom:  8px;
+  }
+  #footer-Follow-Us {
+    position: relative;
+    left:  150px;
+  }
+  #footer-Follow-Us h2 {
+    color: #333;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+  #footer-Follow-Us ul {
+    position: relative;
+    top: 16px;
+  }
+  #footer-Follow-Us a {
+    color: #333;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  #footer-Follow-Us li{
+    margin-bottom:  8px;
+  }
+  #footer-social-icons{
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 32px;
+  }
+  #footer-social-icons a{
+    text-decoration: none;
+  }
+  .link-boton {
+    width: 24.618px;
+    height: 20px;
+    margin-right: 24px;
+  }
+  #facebook-link{
+    display: flex;
+    background-position: center;
+    background-image: url("../images/facebook.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+  }
+  #twitter-link{
+    display: flex;
+    background-position: center;
+    background-image: url("../images/twitter.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+  }
+  #instagram-link{
+    display: flex;
+    background-position: center;
+    background-image: url("../images/instagram.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+  }
+  #rights-text{
+    position: absolute;
+    top: 186px;;
+    left: 32px;
+  }
+  #rights-text span{
+    color: #333;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  /*******************************/
