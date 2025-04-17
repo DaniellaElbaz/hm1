@@ -121,3 +121,14 @@
     line-height: 140.625%;
     margin-bottom: 24px;
   }
+  #cards-title{
+    margin-top: 32px;
+  }
+  #cards-title h2{
+    color: #612999;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+  }
