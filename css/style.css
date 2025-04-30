@@ -206,6 +206,9 @@
     fill: #612999;
     z-index: 1;
   }
+  .Ellipse-cart:hover {
+    cursor: pointer;
+  }
   .Shopping-basket{
     background: url("../images/shopping-basket 2.png");
     position: absolute;
@@ -214,6 +217,9 @@
     width: 31px;
     height: 31px;
     z-index: 2;
+  }
+  .Shopping-basket:hover {
+    cursor: pointer;
   }
   .cards-item h3 {
     margin-top: 21px;
